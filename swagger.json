@@ -1,12 +1,15 @@
 {
   "openapi": "3.0.3",
   "info": {
-    "version": "1.0.0",
-    "title": "Oksana Openko backend"
+    "version": "1.0.1",
+    "title": "Oksana Openko server"
   },
   "consumers": ["application/json"],
   "producers": ["application/json"],
-  "servers": [{ "url": "" }, { "url": "https://localhost:3000" }],
+  "servers": [
+    { "url": "https://oksana-openko.onrender.com/" },
+    { "url": "http://localhost:3000/" }
+  ],
   "tags": [
     {
       "name": "Application",

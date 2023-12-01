@@ -4,11 +4,11 @@ const servicesList = [
   "Статеве виховання",
   "Психотерапія",
   "Запрошений спікер",
-  "Консультація по самодозволенню",
+  "Практикум по самозадоволенню",
   "Гра з картками",
 ];
 
-const formatList = ["online", "offline"];
+const formatList = ["Онлайн", "Офлайн"];
 
 module.exports = {
   servicesList,
